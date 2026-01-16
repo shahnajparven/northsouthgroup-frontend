@@ -1,6 +1,6 @@
 
 
-import greenCityImg from "../../assets/images/greenCity.png";
+import greenCityImg from "../../assets/images/GreenCity.png";
 import { IoCloseOutline } from "react-icons/io5";
 import greenCityImg1 from "../../assets/images/greenCityImg1.jpg";
 import greenCityImg2 from "../../assets/images/greenCityImg2.jpg";
