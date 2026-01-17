@@ -6,7 +6,8 @@ import greenCityImg4 from "../../assets/images/greenCityImg4.jpg";
 import greenCityImg5 from "../../assets/images/greenCityImg5.jpg";
 import greenCityImg6 from "../../assets/images/greenCityImg6.jpg";
 import squareCityBrochure from "../../assets/images/squareCityBrochure.png";
-import squareCityModalImg from "../../assets/images/squareCityModalImg.png";
+import squareCityModalImg from "../../assets/images/squareCityModal_img.png";
+
 
 import { useEffect, useState } from "react";
 import { IoCloseOutline } from "react-icons/io5";
@@ -70,11 +71,13 @@ const SquareCity = () => {
                   >
                     <IoCloseOutline />
                   </button>
+                  
                   <img
                     src={squareCityModalImg}
                     alt="Modal"
                     className="w-full h-auto rounded-lg object-contain"
                   />
+                 
                 </div>
               </div>
             )}
