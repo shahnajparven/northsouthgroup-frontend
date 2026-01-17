@@ -7,7 +7,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/">
     <ToastContainer
       position="top-center"
       pauseOnFocusLoss={false}
